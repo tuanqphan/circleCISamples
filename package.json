@@ -1,0 +1,18 @@
+{
+  "name": "circlecisamples",
+  "version": "1.0.0",
+  "description": "sample run in circleCI",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "testing",
+    "circleCI"
+  ],
+  "author": "tuanqphan",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
