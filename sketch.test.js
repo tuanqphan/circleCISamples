@@ -15,5 +15,5 @@ function sumTest() {
 }
 
 function subtractionTest() {
-    expect(subtractionTest(100, 10)).toBe(90);
+    expect(subtraction(100, 10)).toBe(90);
 }
