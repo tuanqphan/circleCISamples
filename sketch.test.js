@@ -21,5 +21,5 @@ function subtractionTest() {
 }
 
 function getNameTest(){
-    expect(getName("Tuan")).toBe("TuanQPhan");
+    expect(getName("TuanQPhan")).toBe("TuanQPhan");
 }
