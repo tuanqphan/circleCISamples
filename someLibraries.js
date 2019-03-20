@@ -7,7 +7,6 @@ function getDataFrom(endpoint) {
     Http.send();
 
     if (Http.readyState === 4 && Http.status === 200) {
-        console.log(Http.responseText);
         return JSON.parse(Http.responseText);
     }
 }

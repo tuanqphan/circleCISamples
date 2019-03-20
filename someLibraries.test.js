@@ -5,7 +5,7 @@ test('Get Layout from server', getLayoutTest);
 
 function getJsonTest() {
     url = 'https://twqb2oref8.execute-api.us-west-1.amazonaws.com/staging/fetchcontent';
-    console.log(getDataFrom(url));
+    console.log("---------------" + getDataFrom(url));
     expect(getDataFrom(url)).toHaveProperty("contents");
 }
 
