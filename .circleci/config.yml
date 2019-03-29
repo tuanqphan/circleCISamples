@@ -16,11 +16,6 @@ jobs:
 
     working_directory: ~/repo
 
-    notify:
-      webhooks:
-      #- url: https://site.com/path/to/your/webhooks/url
-      - url: http://0.0.0.0:3000/projects/8b62ee8f-aacf-4e0e-bab9-788cb449dca6/status
-
     steps:
       - checkout
 
@@ -42,4 +37,8 @@ jobs:
       # run tests!
       - run: npm test
 
+notify:
+      webhooks:
+      #- url: https://site.com/path/to/your/webhooks/url
+      - url: http://0.0.0.0:3000/projects/8b62ee8f-aacf-4e0e-bab9-788cb449dca6/status
 
